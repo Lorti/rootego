@@ -1,0 +1,38 @@
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.btn-default,
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-danger {
+  position: relative;
+  border-width: 0;
+  font-weight: normal;
+}
+.btn-primary {
+  text-shadow: 0 -1px #1f52a3;
+  box-shadow: inset 0 2px #6192e1, 0 2px #1f52a3;
+}
+.btn-success {
+  text-shadow: 0 -1px #2e882e;
+  box-shadow: inset 0 2px #69cc69, 0 2px #2e882e;
+}
+.btn-info {
+  text-shadow: 0 -1px #2d94c4;
+  box-shadow: inset 0 2px #8cc8e5, 0 2px #2d94c4;
+}
+.btn-warning {
+  text-shadow: 0 -1px #e47925;
+  box-shadow: inset 0 2px #f2bf96, 0 2px #e47925;
+}
+.btn-danger {
+  text-shadow: 0 -1px #bb2826;
+  box-shadow: inset 0 2px #e47e7c, 0 2px #bb2826;
+}
+.btn:active,
+.btn.active {
+  top: 2px;
+  box-shadow: none;
+}
