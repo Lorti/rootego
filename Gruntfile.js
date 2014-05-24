@@ -4,9 +4,6 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     less: {
       development: {
-        options: {
-          paths: ["less"]
-        },
         files: {
           "css/rootego.css": "less/rootego.less"
         }
@@ -16,7 +13,7 @@ module.exports = function(grunt) {
       options: {
         livereload: true
       },
-      files: ['less/**'],
+      files: ['less/**/*.less'],
       tasks: ['less']
     }
   });
